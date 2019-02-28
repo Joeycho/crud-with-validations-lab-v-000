@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <table>
   <thead>
     <tr>
@@ -19,3 +20,8 @@
   </tr>
 </tfoot>
 </table>
+=======
+<% @songs.each do |song| %>
+  <div><%= link_to song.title, song_path(song) %> | <%= song.artist_name %></div>
+<% end %>
+>>>>>>> bc67f9e0f92e5096fd75c8168bb2301c39a309a9
